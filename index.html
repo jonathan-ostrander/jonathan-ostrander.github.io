@@ -4,11 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Jonathan Ostrander</title>
+  <title>o s t r a n d e r</title>
   <style>
     @font-face {
       font-family: "Proxima Nova";
       src: url("https://use.typekit.net/af/4838bd/00000000000000003b9b0934/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3");
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      background: #000000;
     }
     body, textarea, input, select {
       background: 0;
@@ -40,23 +47,21 @@
     .btn, h2 {
       font-size: 2em
     }
+    h1 > span:hover {
+      color: #f85e5e;
+    }
     h1 {
-      font-size: 3em
+      background: linear-gradient(#000000 35%, #f85e5e 50%, #000000 80%);
+      -webkit-background-clip: text;
+      color: transparent;
+      font-size: calc(40px + (500 - 40) * ((100vw - 320px) / (3840 - 300)));
+      transition: color 0.5s ease;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1 style="text-align: center;">Hi, I'm Jonathan</h1>
-    <p>
-      I am the lead software engineer of the Fintech hedging team at <a href="https://hopper.com/" target="_blank">Hopper</a>.
-      I lead the development of the Price Freeze and Price Drop features that you may have seen while looking at flights in the app.
-      In my 3 years at Hopper I have worked on building and maintaining dozens of backend microservices written in <a href="https://www.scala-lang.org/" target="_blank">Scala</a>.
-      In addition to the technical knowledge, I have learned more than I ever could have imagined about the travel industry and helped grow an engineering organization from a dozen or so engineers to over 100.
-    </p>
-    <p>
-      Before Hopper, I was helping build a real-time bidding native advertising platform at a small start-up called BAMx, which has since rebranded to <a href="https://narrativ.com/" target="_blank">Narrativ</a>. 
-    </p>
-  </div>
+  <h1>
+    <span>o</span>&nbsp;<span>s</span>&nbsp;<span>t</span>&nbsp;<span>r</span>&nbsp;<span>a</span>&nbsp;<span>n</span>&nbsp;<span>d</span>&nbsp;<span>e</span>&nbsp;<span>r</span>
+  </h1>
 </body>
 </html>
