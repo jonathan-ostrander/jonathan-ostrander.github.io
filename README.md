@@ -1,2 +1,1 @@
-# jonathan-ostrander.github.io
-Personal Website https://ostrander.dev
+# [ostrander.dev](https://ostrander.dev)
